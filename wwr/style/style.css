@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Oswald:wght@200&display=swap');
 body{
-    color:none;
     font-size:22px;
     margin:0;
     margin:0;
@@ -9,6 +8,7 @@ body{
 }
 #content{
     margin:0 auto;
+    max-width: 1600px;
 }
 nav a{
     text-align: center;
@@ -94,9 +94,7 @@ h4{
 .logo{
     width: 80px;
 }
-div{
-    max-width: 1600px;
-}
+
 .home-title{
     font-family: Figtree;
     margin-top: 10px;
