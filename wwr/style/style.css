@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Oswald:wght@200&display=swap');
 body{
     color:none;
+    font-size:22px;
+    margin:0;
+    margin:0;
+    font-family: Oswald;
+    background:whitesmoke;
 }
 #content{
     margin:0 auto;
@@ -9,9 +14,11 @@ nav a{
     text-align: center;
     color:#95AEBF;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg{
     text-align: center;
+    color:#B66D0D
 }
 .button-box{
     text-align: center;
@@ -22,9 +29,6 @@ main section{
 #background{
     height:725px;
     background-color:#95AEBF;
-}
-body{
-    background:whitesmoke;
 }
 header{
     background-color:#416073 ; 
@@ -37,6 +41,10 @@ nav a:hover{
     background-color:#B66D0D ;
     color:white;
     text-decoration: none;
+    font-size:18px;
+    padding: 15px 30px;
+    margin-top:50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #B66D0D;
@@ -44,18 +52,24 @@ nav a:hover{
 }
 .msg{
     background:#95AEBF ;
+    line-height: 1.5em;
+    padding: 35px;
    
 }
 .msg h2{
     color:#416073;
 }
 .msg p{
-    color:#B66D0D
+    color:#B66D0D;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background:#95AEBF;
     color: #416073;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color:#B66D0D;
@@ -72,6 +86,7 @@ h4{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width:100%;
@@ -81,4 +96,32 @@ h4{
 }
 div{
     max-width: 1600px;
+}
+.home-title{
+    font-family: Figtree;
+    margin-top: 10px;
+}
+.msg h2{
+    font-family: Figtree;
+    font-size: 2em;
+}
+h2{
+    margin:0;
+    color:#416073;
+}
+#logo_link{
+    padding-top:5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid;
+    border-color: #B66D0D;
+}
+main section img{
+    box-sizing: border-box;
 }
