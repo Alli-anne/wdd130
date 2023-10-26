@@ -192,7 +192,7 @@ main, #home-grid{
     transform: scale(1.1);
 }
 
-/* @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -232,4 +232,4 @@ main, #home-grid{
     footer {
         margin-top: 25px;
     }
-} */
+}
