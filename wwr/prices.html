@@ -41,7 +41,7 @@
            
             
                 <h4 id="desolation_6">Desolation Six-Nights</h4>
-                    <h5 id="desolation_6">$1,790 person</h5>
+                    <h5 id="desolation_6_price">$1,790 person</h5>
             <h2 id="header-dates">Dates</h2>
         
             <label for="month-dropdown">Select a Month:</label>
@@ -117,10 +117,15 @@
                 </div>
             </div>
         </div>
-    <script>
+        <script>
             // Get references to the select element and calendar containers
             var monthDropdown = document.getElementById("month-dropdown");
             var calendarContainers = document.querySelectorAll("#calendar-container > div");
+        
+            // Hide all calendar containers except the default one (e.g., April)
+            calendarContainers.forEach(function(container, index) {
+                container.style.display = index === 0 ? "block" : "none";
+            });
         
             // Add event listener to the dropdown to handle changes
             monthDropdown.addEventListener("change", function() {
@@ -136,7 +141,7 @@
                     selectedContainer.style.display = "block";
                 }
             });
-    </script>
+        </script>
     </main>
     <footer>
         <p>Dry Oar &copy; 2023 - Allison Price</p>
