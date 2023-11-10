@@ -198,6 +198,150 @@ main, #home-grid{
     color: white;
 }
 
+
+/* prices.html */
+#logo{
+    width: 50px;
+    height: 50px;
+}
+.price_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+#header_price{
+    text-align: center;
+    grid-column: 2/4;
+    color: #B66D0D;
+}
+#grand_canyon_h3{
+    grid-column: 1/3;
+    text-align: center;
+
+}
+img, .calendar-container{
+    max-width: 100%;
+} 
+/* select{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #416073;
+    color: white;
+
+} */
+#grand_canyon_h3{
+    grid-column: 1/3;
+    text-align: center;
+    margin: 10px;
+    padding: -10px;
+}
+#night_3_grand{
+    grid-column: 1/3;
+    text-align: center;
+    margin: 10px;
+    padding: -10px;
+}
+#night_3_grand_price{
+    grid-column: 1/3;
+    text-align: center;
+    margin: 10px;
+    padding: -10px;
+}
+#night_6_grand{
+    grid-column: 1/3;
+    text-align: center;
+    padding: -10px;
+    margin: 10px;
+}
+#night_6_grand_price{
+    grid-column: 1/3;
+    text-align: center;
+    padding: -10px;
+    margin: 10px;
+}
+#grand_photo{
+    grid-column: 3/5;
+    grid-row: 2/7;
+}
+#salmon_river_photo{
+    grid-row: 7/12;
+    grid-column: 1/3;
+}
+
+#salmon_desolation{
+    text-align: center;
+    grid-column: 3/5;
+}
+#salmon_five{
+    text-align: center;
+    grid-column: 3/5;
+    padding: -10px;
+    margin: 10px;
+    grid-row: 8/9;
+}
+#salmon_five_price{
+    text-align: center;
+    grid-column: 3/5;
+    padding: -10px;
+    margin: 10px;
+}
+#desolation_6{
+    text-align: center;
+    grid-column: 3/5;
+    padding: -10px;
+    margin: 10px;
+}
+#header-dates{
+    text-align: center;
+    grid-column: 2/4;
+}
+label{
+    text-align: center;
+    grid-column: 2/4;
+}
+#month-dropdown{
+    text-align: center;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #416073;
+    color: white;
+    grid-column: 2/4;
+    align-items: center;
+    max-width: 100%;
+}
+#calendar-container{
+    padding: 5px;
+    grid-column: 2/4;
+    text-align: center;
+    max-width: 100%;
+}
+#color_3_grand{
+    background-color: #B66D0D;
+    color: white;
+    padding: 5px;
+    
+}
+#color_6_grand{
+    background-color: #416073;
+    color: white;
+    padding: 5px;
+}
+#salmon_5_color{
+    background-color: #648293;
+    color: white;
+    padding: 5px;
+}
+#Desolation_6-color{
+    background-color: #95AEBF;
+    color: white;
+    padding: 5px;
+}
+.logo{
+    width: 50px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
