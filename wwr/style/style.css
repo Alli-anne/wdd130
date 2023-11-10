@@ -348,23 +348,23 @@ label{
     max-width: 100%;
     font-size: 30px;
 }
-#color_3_grand{
+.color_3_grand{
     background-color: #B66D0D;
     color: white;
     padding: 5px;
     
 }
-#color_6_grand{
+.color_6_grand{
     background-color: #416073;
     color: white;
     padding: 5px;
 }
-#salmon_5_color{
+.salmon_5_color{
     background-color: #648293;
     color: white;
     padding: 5px;
 }
-#Desolation_6-color{
+.Desolation_6-color{
     background-color: #95AEBF;
     color: white;
     padding: 5px;
