@@ -372,6 +372,9 @@ label{
 .logo{
     width: 50px;
 }
+#logo{
+    width: 100px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
