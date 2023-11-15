@@ -3,31 +3,61 @@
     margin:0 auto;
     max-width: 1600px;
     background-color: #ABC4AB;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
+    justify-content: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
 }
 nav a{
     text-align: center;
-    font-family: Alumni Sans;
+    font-family:Koulen;
     color: #727D71;
     text-decoration: none;
-    padding: 35px;
+    margin: 0 15px;
     font-size: 50px;
+    justify-content: center;
 }
-.footer_logo{
-    width: 50px;
-}
+
 #logo{
     align-items: center;
-    grid-column: 2/4;
+    margin: 20px;
+    padding: 1px;
+    width: 200px;
+    grid-column: 1/3;
+    justify-content: center;
+    
+    
     
 }
 #photo{
-    grid-column: 3/5;
-    grid-row: 1;
+    margin: 0;
+    padding: 30px;
 }
 
 
-footer{
+/* footer{
     display: grid;
+    background-color: #ABC4AB; */
+
+#footer_div{
+    background-color:#727D71;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    font-weight: 10px;
+    font-family: Alumni Sans;
+    color: #DCC9B6;
+}
+#my_footer_logo{
+    width:200px;
+    align-content: center;
+}
+#footer_logo_instgram{
+    grid-column: 3/4;
+}
+.footer_logo{
+    width: 50px;
+    grid-column: 3/4;
 }
