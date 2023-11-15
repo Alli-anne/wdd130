@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&family=Koulen&display=swap');
+#navigation{
+    margin:0 auto;
+    max-width: 1600px;
+    background-color: #ABC4AB;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+nav a{
+    text-align: center;
+    font-family: Alumni Sans;
+    color: #727D71;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 50px;
+}
+.footer_logo{
+    width: 50px;
+}
+#logo{
+    align-items: center;
+    grid-column: 2/4;
+    
+}
+#photo{
+    grid-column: 3/5;
+    grid-row: 1;
+}
+
+
+footer{
+    display: grid;
+}
