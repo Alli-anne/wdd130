@@ -61,3 +61,139 @@ nav a{
     width: 50px;
     grid-column: 3/4;
 }
+
+/* photorgaphy page */
+
+#photography_grid{
+    display: grid;
+}
+#alska_1{
+    width:500px;
+}
+#alyson{
+    width:500px;
+}
+#emma_1{
+    width:500px;
+}
+#carter{
+    width:500px ;
+}
+#johnny{
+    width:500px
+}
+#hug{
+    width:500px;
+}
+#kandm{
+    width:500px;
+}
+#katie{
+    width:500px;
+}
+#alska_2{
+    width:500px;
+}
+#isabel{
+    width:500px;
+}
+
+/* design page */
+
+#little_woman_poster{
+    width: 500px;
+}
+#little_woman_ticket{
+    width: 500px;
+}
+#postcard_1{
+    width:500px
+}
+#postcard_2{
+    width: 500px;
+}
+#trifolds_1{
+    width:500px;
+}
+#trifolds_2{
+    width: 500px;
+}
+#ddut_logos{
+    width:500px;
+}
+#musical1_22{
+width:500px;
+}
+#musical2_22{
+    width:500px;
+}
+#musical1_23{
+    width: 500px;
+}
+#musical2_23{
+    width:500px;
+}
+#band_1{
+    width:500px;
+}
+#band_2{
+    width:500px;
+}
+#hoco_1{
+    width:500px;
+}
+#hoco_2{
+    width:500px;
+}
+#time_1{
+    width:500px;
+}
+#time_2{
+    width:500px;
+}
+#mesa{
+    width:500px;
+}
+#photo_graphic{
+    width:500px;
+}
+#photo_graphic{
+    width:500px;
+}
+#yearbook_poster{
+    width:500px;
+}
+#prunkery_logo{
+    width:500px;
+}
+#same_page{
+    width:500px;
+}
+#sunset{
+    width:500px;
+}
+#web_design{
+    width:500px;
+}
+#pancakes{
+    width:500px;
+}
+#yw{
+    width:500px
+}
+
+/* home page */
+
+#family_photo{
+width:500px;
+}
+#prom_photo{
+    width:500px;
+}
+#other_me{
+    width:500px
+}
+
+#photo_me{
+    width:500px;
+}
