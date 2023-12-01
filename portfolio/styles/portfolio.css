@@ -5,8 +5,8 @@
     
 }
 #navigation{
-    max-width: 1600;
-    min-width:  auto 0;
+    max-width: 1600px;
+    min-width:  auto ;
     background-color: #ABC4AB;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0px;
@@ -113,7 +113,7 @@ footer{
     text-align: center;
     font-size: 45px;
     font-family:"Alumni Sans";
-    padding: auto;
+    padding: 0;
     max-width: 700px;
     margin: auto;
 }
@@ -128,7 +128,6 @@ footer{
     gap: 10px; /* Adjust the gap between images */
     justify-content: center; /* Center the grid horizontally */
     align-content: center; /* Center the grid vertically */
-    grid-gap: ;
 }
 .photography_grid img {
     max-width: 100%;
