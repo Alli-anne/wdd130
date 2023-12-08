@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&family=Koulen&display=swap');
 #size{
-    max-width: 1600px;
+    max-width: 2000px;
     margin: 0 auto;
     
 }
 #navigation{
-    max-width: 1600px;
+    max-width: 2000px;
     min-width:  auto ;
     background-color: #ABC4AB;
     grid-template-columns: 1fr 1fr 1fr;
