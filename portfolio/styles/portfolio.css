@@ -19,7 +19,7 @@ nav{
 }
 nav a{
     text-align: center;
-    font-family:Koulen;
+    font-family:Koulen,sans-serif;
     color: #727D71;
     text-decoration: none;
     margin: 0;
@@ -49,7 +49,7 @@ nav a{
     background-color: #727D71;
     font-family: 'Alumni Sans', sans-serif;
     color: #DCC9B6;
-    max-width: 1600px;
+    max-width: 2000px;
     margin: 0 auto; /* Added padding for better spacing */
 }
 
@@ -98,7 +98,7 @@ footer h4 {
     text-align: center;
     font-size:100px;
     color: #ABC4AB;
-    font-family: Koulen;
+    font-family: Koulen , sans-serif;
     margin-bottom:5px;
     margin-top: 5px;
 }
@@ -188,13 +188,13 @@ width:50%;
     width: 100%;
     text-align: center;
     max-width: 100%;
-    font-family: Koulen;
+    font-family: Koulen, sans-serif;
     color:#DCC9B6;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, .5);
     margin: 0;
 }
 .full_page h3{
-    font-family: Koulen;
+    font-family: Koulen, sans-serif;
     text-align: center;
     font-size: 50px;
     margin: 0px;
@@ -382,9 +382,10 @@ width:500px;
 .main_grid {
     display : grid;
     row-gap : 60px;
-    grid-template-columns : 1fr 1fr 1fr 1fr ;
-    margin: auto 0;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    margin: 0 auto ;
     max-width: 1600px;
+    min-width: 100px;
     }
 #prom_photo {
     width : 300px;
@@ -419,20 +420,21 @@ width:500px;
     height : 900px;
     }
 #who_header {
-    font-family : Koulen;
+    font-family : Koulen, sans-serif;
     background-color : #727D71;
-    font-size : 100px;
+    font-size : 5em;
     color : #DCC9B6;
     min-width : 500px;
     max-width : 500px;
-    margin-left : 50px;
-    margin-right : 50px;
-    margin-bottom : 0%;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom : 0%;
     margin : auto;
     text-align : center;
     grid-column : 3 / 5;
     grid-row : 1 / 2;
     text-shadow : 2px 2px 4px rgb(0, 0, 0, 0.5);
+
     }
 #who_paragraph {
     text-align : center;
@@ -448,13 +450,6 @@ width:500px;
     margin-top : 0%;
     text-shadow : 2px 2px 4px rgb(128, 128, 128, 0.5);
     }
-.main_grid {
-    display : grid;
-    row-gap : 60px;
-    grid-template-columns : 1fr 1fr 1fr 1fr ;
-    margin: auto 0;
-    max-width: 1600px;
-    }
 .contact_info {
     text-align : center;
     grid-column : 2 / 4;
@@ -467,7 +462,7 @@ width:500px;
     }
 #contact {
     font-size : 75px;
-    font-family : Koulen;
+    font-family : Koulen, sans-serif;
     padding-bottom : 0;
     color : #727D71;
     }
@@ -478,11 +473,11 @@ width:500px;
     z-index : -1;
     display : block;
     box-shadow : 5px 5px 5px 5px #888888;
-    margin-bottom : 10px;
+    padding: 10px;
     }
 #fam {
     font-size : 75px;
-    font-family : Koulen;
+    font-family : Koulen , sans-serif;
     text-align : center;
     grid-column : 2 / 4;
     grid-row : 5;
